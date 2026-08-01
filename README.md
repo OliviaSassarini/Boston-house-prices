@@ -59,6 +59,9 @@ However, multicollinearity made some coefficients unstable, and the model strugg
 
 The Random Forest model provided a strong performance boost over linear regression by capturing nonlinear relationships and interactions between features. Feature importance analysis identified LSTAT, RM, PTRATIO, NOX, and DIS as the most influential predictors of housing value. Overall, Random Forest delivered higher accuracy and more reliable insights compared to the linear model.
 
+**Dependencies:** 
+
+This project uses R packages listed in requirements.txt. These are the libraries used throughout the analysis in RStudio.
 
 
 

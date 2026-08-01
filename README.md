@@ -59,7 +59,13 @@ However, multicollinearity made some coefficients unstable, and the model strugg
 
 The Random Forest model provided a strong performance boost over linear regression by capturing nonlinear relationships and interactions between features. Feature importance analysis identified LSTAT, RM, PTRATIO, NOX, and DIS as the most influential predictors of housing value. Overall, Random Forest delivered higher accuracy and more reliable insights compared to the linear model.
 
-**Dependencies:** 
+
+<h3> Findings</h3> 
+
+The linear regression model provided a clear baseline, capturing the main socioeconomic and structural drivers of Boston housing prices. The average number of rooms showed a strong positive relationship with median home value, while % lower-status population, pupil–teacher ratio, and pollution had negative effects, matching real‑world patterns where larger homes, better school quality, and cleaner environments lead to higher property values. The model explained around 70% of the variation in median home value, giving a solid foundation for comparison.
+Random Forest delivered a noticeably stronger performance. Because it learns patterns directly from the data rather than assuming linear relationships, it captured nonlinear effects and interactions that the linear model missed. Feature importance highlighted LSTAT, average number of rooms, pupil–teacher ratio, pollution, and distance to employment centres as the most influential predictors, reinforcing the idea that socioeconomic conditions, environmental quality, and home size are the dominant factors shaping property values in Boston. Overall, Random Forest provided more accurate and robust predictions, while linear regression offered interpretable insights that aligned with real‑world housing behaviour.
+
+<h3>Dependencies:</h3> 
 
 This project uses R packages listed in requirements.txt. These are the libraries used throughout the analysis in RStudio.
 

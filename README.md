@@ -6,7 +6,7 @@ This project builds and compares Linear Regression and Random Forest models to p
 <h3>Dataset</h3>
 
 Source: Kaggle — Boston House Prices: Advanced Regression Techniques
-The dataset contains 506 rows and multiple predictors.
+The dataset contains 506 rows and multiple features.
 
 <h3>Features</h3>
 
